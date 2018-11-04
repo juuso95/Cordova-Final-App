@@ -1,0 +1,77 @@
+﻿<!-- Juuso Kivistö, 1701442 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Updated from JQUERY start here-->
+    <!-- Include meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-
+1.4.5.min.css">
+    <!-- Include the jQuery library -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Include the jQuery Mobile library -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-
+1.4.5.min.js"></script>
+    <!--Updated for this labwork-->
+    <!-- Updated CSS and JavaScript ref -->
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/databaseHandler.js"></script>
+    <script type="text/javascript" src="scripts/productHandler.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+
+    <title>Juuso's CV application</title>
+    <style>
+        #titleAwesome {
+            font-family: 'Chewy', cursive;
+            font-size: 45px;
+            line-height: 24px;
+            z-index: 33;
+            position: relative;
+        }
+    </style>
+</head>
+
+
+<body class="cover vertical-align-center  align-center blend-soft-light">
+
+
+    <div data-role="header" data-position="fixed">
+
+
+
+        <h1>Sign in</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <form>
+            <div class="ui-field-contain">
+
+                <input type="text" id="txtUsername" placeholder="Enter your username" data-clear-btn="true" />
+
+
+                <input type="text" id="txtPassword" placeholder="Enter your password" data-clear-btn="true" />
+
+
+                <input type="text" id="txtEmail" placeholder="Enter your email" data-clear-btn="true" />
+
+
+                <input type="number" id="txtAge" placeholder="Enter your age" data-clear-btn="true" />
+
+                <label for="btnAdd"></label>
+                <a class="ui-btn"
+                   id="btnAdd" onclick="addProduct()" style="background-color: lightblue;border-radius: 100px;margin-top: 10px;">Register</a>
+
+                <a class="ui-btn"
+                   id="btnAdd" onclick="Login()" style="background-color: lightblue;border-radius: 100px;margin-top: 10px;">Already have an account?</a>
+            </div>
+        </form>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>Juuso's CV application</h1>
+    </div>
+
+</body>
+</html>
