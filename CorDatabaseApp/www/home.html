@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Updated from JQUERY start here-->
+    <!-- Include meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-
+1.4.5.min.css">
+    <!-- Include the jQuery library -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Include the jQuery Mobile library -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-
+1.4.5.min.js"></script>
+    <!--Updated for this labwork-->
+    <!-- Updated CSS and JavaScript ref -->
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/databaseHandler.js"></script>
+    <script type="text/javascript" src="scripts/productHandler.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <meta name="format-detection" content="telephone=no">
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1,
+minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <title>Juuso's app</title>
+</head>
+<body class="padding white-50 has-header has-sub-header">
+    <div data-role="page" id="addpage">
+        <div data-role="panel" id="addPagePanel">
+            <h1>The Content of my application!</h1>
+            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">Menu</li>
+                <li data-icon="star"><a href="#tabWelcome">Welcome</a></li>
+                <li data-icon="home"><a href="#tabHome">Home</a></li>
+                <li data-icon="info"><a href="#loadpage">About</a></li>
+                <li data-icon="phone"><a href="#loadpage">Contacts</a></li>
+            </ul>
+        </div>
+
+        <div data-role="header" data-position="fixed">
+            
+            <div class="header blue">
+                <a href="#addPagePanel"
+                   class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all uishadow"></a>
+                <div class="left">
+
+                </div>
+                <h1>Juuso's app</h1>
+
+                <div class="right">
+                    <button id="logoutButton" class="icon ion-log-out"></button>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div data-role="main" class="ui-content">
+
+            <div class="tab-content active" id="tabWelcome">
+                <h1 style="padding-top:40px;" class="text-strong padding text-blue">Welcome to my application!</h1>
+                <p>In here you can check some information about me and my knowledge, and of course to wonder this beautifull app! </p>
+
+
+            </div>
+            <div class="tab-content" id="tabHome">
+                <h2 class="text-strong padding text-blue">Home of my application!</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="tab-content" id="tabAbout">
+                <h2 class="text-strong padding text-blue">Here is something about me!</h2>
+                <p></p>
+                <p>
+                    My name is Juuso Kivistö and i'm 22 years old student from Finland, Vantaa.
+                    I am currently studying information technology in Laurea University of Applied and Sciences. I've studied almost two years and my plan is to continue to study about one and half years untill i graduate.
+                    During my studies i've developed two websites by using HTML and CSS. I have also created one software by usin Java and SQL. Currently im working an mobile app for android and ios, and i hope to learn as much as possible about Ionic, Cardova and Angular to get my knowledge to proper level about these subjects.
+                    My greatest passion amogst football is computers and technology inside of those devices. I have used computers since i was a child, and my passion for computing is only growing every day.
+                </p>
+            </div>
+            <div class="tab-content" id="tabContacts">
+                <h2 class="text-strong padding text-blue">Here is all the contact information!</h2>
+
+                <p> Student number: 1701442</p>
+                <p> Email: juuso.j.kivisto@student.laurea.fi</p>
+
+            </div>
+        </div>
+        </div>
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="mobileui/mobileui.js"></script>
+        <script type="text/javascript" src="scripts/home.js"></script>
+</body>
+</html>

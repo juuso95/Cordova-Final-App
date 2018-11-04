@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css">
+    <meta name="format-detection" content="telephone=no">
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1,
+minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Juuso's app</title>
+    <style>
+        #titleAwesome {
+            font-family: 'Chewy', cursive;
+            font-size: 40px;
+            line-height: 24px;
+            z-index: 33;
+            position: relative;
+        }
+    </style>
+</head>
+<body class="cover vertical-align-center blue-grey-900 align-center">
+
+    <div class="space"></div>
+    <div class="space"></div>
+    <div class="space"></div>
+    <p class="text-black">Now you can</p>
+    <h1 id="titleAwesome" class="text-black">SIGN UP</h1>
+    
+    <div class="space"></div>
+    <div class="space"></div>
+    <div class="row">
+        <div class="col-90 col-center">
+            <div class="list no-border opacity-60">
+                <div class="item icon ion-android-mail border-grey border-bottom">
+                    <input id="username" class="placeholder-black text-black" type="email"
+                           placeholder="Enter your email">
+                </div>
+                <div class="item icon ion-android-lock border-grey border-bottom">
+
+                    <input id="password" class="placeholder-black text-black" type="password"
+                           placeholder="Enter your password">
+                </div>
+                <div class="item icon ion-android-person border-grey border-bottom">
+                    <input id="Firstname" class="placeholder-black text-black" type="text"
+                           placeholder="Enter your firstname">
+                </div>
+                <div class="item icon ion-android-person border-grey border-bottom">
+                    <input id="Lastname" class="placeholder-black text-black" type="text"
+                           placeholder="Enter your lastname">
+                </div>
+                <div class="item icon ion-android-call border-grey border-bottom">
+                    <input id="number" class="placeholder-black text-black" type="text"
+                           placeholder="Enter your phonenumber">
+                </div>
+                <div class="item icon ion-android-walk border-grey border-bottom">
+                    <input id="age" class="placeholder-black text-black" type="datetime"
+                           placeholder="Enter your age">
+                </div>
+            </div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <button id="submitButton" class="border-blue text-blue full">SUBMIT</button>
+            
+                
+            
+        </div>
+
+        
+    </div>
+    <div class="header bottom gradient">
+
+        <button id="backButton" class="icon ion-arrow-left-c"></button>
+        
+            
+
+
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="js/signup.js"></script>
+</body>
+</html>
