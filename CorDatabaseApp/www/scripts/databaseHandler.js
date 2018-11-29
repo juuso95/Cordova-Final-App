@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿//Juuso Kivistö, 1701442
 var databaseHandler = {
+=======
+﻿var databaseHandler = {
+>>>>>>> 5d3fea89bdaebfb898d0a544d61d524cffcbb423
     db: null,
     createDatabase: function () {
         this.db = window.openDatabase("UserManager.db", "1.0", "Account database", 1000000);

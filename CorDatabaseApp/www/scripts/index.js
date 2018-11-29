@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿//Juuso Kivistö, 1701442
+=======
+﻿
+>>>>>>> 5d3fea89bdaebfb898d0a544d61d524cffcbb423
 //Creating a datbase
 $(document).on("ready", function () {
     databaseHandler.createDatabase();
@@ -40,7 +44,11 @@ function addProduct() {
         }
     }
 }
+<<<<<<< HEAD
 function Login() {
     location.href = "/login.html";
 }
+=======
+
+>>>>>>> 5d3fea89bdaebfb898d0a544d61d524cffcbb423
 

@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 ﻿/**Juuso Kivistö, 1701442 */
+=======
+﻿/**
+
+body {
+}
+    */
+>>>>>>> 5d3fea89bdaebfb898d0a544d61d524cffcbb423
 body {
     font-family: "Lato", sans-serif;
 }
@@ -62,9 +70,12 @@ body {
         line-height: 16px;
         color: white;
     }
+<<<<<<< HEAD
 h5 {
     padding-top:20px;
 }
 h6 {
     padding-top:10px;
 }
+=======
+>>>>>>> 5d3fea89bdaebfb898d0a544d61d524cffcbb423
